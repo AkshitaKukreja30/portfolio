@@ -13,7 +13,7 @@ export class HomeComponent {
     private dialog: MatDialog
   ){}
 
-  @ViewChild('ContactDialog', { static: true }) ContactDialog: TemplateRef<any>;
+  @ViewChild('ContactDialog', {}) ContactDialog: TemplateRef<any>;
   
   openContactDialog(){
     this.dialog.open(this.ContactDialog);
