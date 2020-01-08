@@ -1,0 +1,29 @@
+install node
+install npm
+install angular cli
+create new angular project -> ng new project-name
+navigate to project
+ng serve
+ng add @angular/material to add material and themes
+
+
+To use a componenet->
+1. import it in app.module.ts
+2. add it to the array
+3. use it in the html
+
+Create a separate material module
+To create a module, ng g m material
+ng generate m as in module, material is the name of the module that we'll generate
+
+Local file 
+hosting http server : 
+npm install -g http-server
+http-server ./
+
+available on : http://172.25.120.126:8081
+  http://127.0.0.1:8081
+running it in the terminal always
+
+Creating a new component and adding the routing too ;
+ng g c about module=app-routing.module.ts

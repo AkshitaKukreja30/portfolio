@@ -1,0 +1,13 @@
+.example-card {
+  min-height: 250px;
+  max-height: max-content;
+  width: 400px;
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 50px;
+  background-color: white;
+  margin-left: 5%;
+  color: black;
+  max-width: fit-content;
+}
+

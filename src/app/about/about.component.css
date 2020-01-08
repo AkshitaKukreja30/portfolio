@@ -1,0 +1,10 @@
+.example-card {
+  height: 120px;
+  width: 190px;
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 70px;
+  margin-bottom: 20px;
+  /*background-color: blue;*/
+  color: black;
+}

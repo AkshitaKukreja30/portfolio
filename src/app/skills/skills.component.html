@@ -1,0 +1,33 @@
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js" type="text/javascript"></script> -->
+<!-- <ul>
+  <li *ngFor="let skill of skillsList;">
+    {{skill}}
+  </li>
+</ul> -->
+<!-- <div class="chart-container" style="position: relative; height:40vh; width:70vw">    
+  <canvas id="canvas"></canvas>    
+</div>  -->
+
+
+<!-- <mat-chip-list aria-label="Fish selection">
+  <mat-chip>One fish</mat-chip>
+  <mat-chip>Two fish</mat-chip>
+  <mat-chip color="primary" selected>Primary fish</mat-chip>
+  <mat-chip color="accent" selected>Accent fish</mat-chip>
+
+</mat-chip-list> -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.7.3/dist/Chart.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script>
+<div style="width: 80%; margin-left: 10%; margin-top: 3%">
+  <canvas
+      baseChart
+      [chartType]="'horizontalBar'"
+      [datasets]="chartData"
+      [labels]="chartLabels"
+      [options]="chartOptions"
+      [legend]="false"
+      [colors] = "colors"
+      (chartClick)="onChartClick($event)">
+  </canvas>
+</div>

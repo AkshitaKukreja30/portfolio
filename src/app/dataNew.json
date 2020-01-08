@@ -1,0 +1,30 @@
+[
+	{
+		"Experience":"2 years",
+		"Skills":[
+				"Python",
+				"Node",
+				"C#",
+				"HTML",
+				"CSS",
+				"Angular",
+				"Mongo DB",
+				"MS SQL",
+				"Applescript"
+		],
+		"Contact" : {
+			"email": "kukrejaakshita@gmail.com",
+			"number": "9911991159",
+			"linkedin": "",
+			"github": ""
+		},
+		"About": "xyz",
+		"Projects": [
+			{"name": "Motion and Face Detection using Python","description" : "This is an intrusion detection project that works as a smart CCTV Surveillance and emails the user whenever an object / a person is detected in the area covered by the CCTV. It also generates a report of the timings when the object/human entered/exited from the area and saves a recording of the movement that took place.", "technologies":"Python and it's libraries: OpenCV, bokeh, tkinter, pandas", "github": "xyz"},
+			{"name": "TFS Task Creation Scripting","description" : "This project was a helping aid to the live project I was working on.Instead of manually creating TFS (Team Foundation Server) Support Tasks every day and attaching the static emails and excels to them (which was a part of the Business Requirement), the task was automated using python scripting.Python scripts recognise the current date and decide the iteration of the sprint going on, further creating TFS tickets by hitting TFS APIs and attaching the required documents to it.", "technologies":"Python and its libraries : os, smtp, json, requests", "github":"xyz"},
+			{"name": "To-do App","description" : "This is a web-app that lets you add a To-do item, mark it as completed,edit/delete/view a list of the items currently on the To-do list. It was made to learn about Python APIs,Flask framework and Python's integration with SQL Alchemy","technologies":"Python framework flask, HTML,CSS,Javascript","github":"xyz"},
+			{"name": "P4","description" : "desc"}
+		]
+	}
+]
+		

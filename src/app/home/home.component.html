@@ -1,0 +1,11 @@
+    <img width="280" alt="Logo" style="border-radius: 50%; border-color: black; margin-left: auto; margin-right: auto; display: block; margin-top: 8%" src="http://127.0.0.1:8081/img_avatar.jpg">
+    <h1 style = "text-align: center;">Akshita Kukreja</h1>
+    <button mat-button color="primary" (click)="openContactDialog()" style="display: flex; justify-content: center; align-items: center; margin-left:auto; margin-right: auto; display:block;"><b>Contact</b></button>
+    <ng-template #ContactDialog>
+  <mat-dialog-content style="height: 230px; width: 410px;">
+    <app-contact #contact>
+    </app-contact>
+  </mat-dialog-content>
+</ng-template>
+
+
